@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="html" href="table.html">
+  </head>
+ 
+  <body>
+    <section class="main-container">
+        
+   <nav class="navbar">
+       <div class="navcenter">
+           <h2>My<i class="fa-solid fa-book-open-reader">LIBRARY</i></h2>
+
+
+   <a  href="https://en.wikipedia.org/wiki/Library" class="active" 
+   
+   style="color: rgb(1, 1, 16);
+         font-weight: 900;font-family:
+    sans-serif; background-color: wheat;border-radius: 2px; padding: 5px;">Home</a>  
+   <a href="aboutus.html">About Us</a>   
+<a href="/table.html">Books</a>
+<a href="#register">Register</a>
+<a href="">Contact Us</a>
+</div>
+    </nav>
+
+<div class="qoute-container">
+<blockquote>
+<q style="font-size: xx-large; ">The library is the temple of learning, and learning has liberated more people than all the wars in history.
+</q>
+<p>~Carl T. Rowan</p>
+</blockquote>
+</div>
+
+
+  <div class="table-container" id="mybooks" >
+        <table >
+        <caption><h3 >Books</h3></caption>
+        <thead>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+        </thead>
+        <tbody>
+<tr>
+    <td>1</td>
+<td>
+ <table>
+   <tr><td><a href="https://en.wikipedia.org/wiki/The_Alchemist_(novel)" style="color:blue;">The Alchemist</a></td></tr>
+   <tr><td>Publication Date: 1998</td></tr>
+   <tr><td>Page Count:208</td></tr>
+   <tr><td>ISBN13-978-0061122415</td></tr>
+</table>
+</td>
+
+    <td>
+        Paulo Coelho
+    </td>
+
+    <td>
+        Self-help
+    </td>
+
+    <td>
+        Available
+    </td>
+
+</tr>
+
+</div>
+<!-- book2 -->
+
+ 
+<tr>
+    <td>2</td>
+ <td>
+    <table>
+        <tr><td><a href="https://en.wikipedia.org/wiki/The_Secret_(Byrne_book)" style="color:blue;">The Secret</a></td></tr>
+        <tr><td>Publication Date: 2006</td></tr>
+        <tr><td>Page Count:198</td></tr>
+        <tr><td>ISBN13-978-1582701707</td>
+        </tr>
+    </table>
+</td>
+
+
+    <td>
+        Rhonda Byrne
+    </td>
+    <td>
+        Self-helf
+    </td>
+    <td>
+        Available
+    </td>
+</td>
+</tr>
+
+<!-- book3 -->
+
+
+<tr>
+    <td>3</td>
+ <td>
+    <table>
+        <tr><td><a href="https://en.wikipedia.org/wiki/The_Power_of_Positive_Thinking" style="color:blue;">Power of Positive thinking</a></td></tr>
+        <tr><td>Publication Date: 1952</td></tr>
+        <tr><td>Page Count:328</td></tr>
+        <tr> <td>ISBN13-9786075271866</td></tr>
+    </table>
+
+    <td>
+        Norman Vincent Peale
+    </td>
+    <td>
+        Selp-Help
+    </td>
+    <td>
+        Available
+    </td>
+</tr>
+
+
+ </tbody>
+    </table>
+</div>
+
+<section class="register-container" id="register">
+    <form class="form">
+       <h3>Register</h3>
+    <div class="input-container">
+        <label for="fname"class="labels"></label><br>
+        <input type="text" name="fname" id="" placeholder="First Name">
+    </div>
+    <div class="input-container">
+        <label for="lname"class="labels"></label><br>
+        <input type="text" name="lname" id="" placeholder="Last Name">
+    </div>
+    <div class="input-container">
+        <label for="dob"class="labels"></label><br>
+        <input type="date" name="dob" placeholder="Date of Birth" style="padding: 10px;">
+    </div>
+    
+    <div class="input-container">
+        <label for="age"class="labels"></label><br>
+        <input type="number" name="age" id=""min="0" max="100" placeholder="Age">
+    </div>
+    <div class="input-container">
+        <label for="email"class="labels"></label><br>
+        <input type="email" name="email" id=""placeholder="Email">
+    </div>
+    <div class="input-container">
+        <label for="pwd"class="labels"></label><br>
+        <input type="password" name="" id="" placeholder="Password">
+    </div>
+    <button>Submit</button>
+</form>
+ 
+</section>
+</section>
+<section>
+    <footer>
+        <p class="footer"> &copy;All rights are  reserved | MyLibrary 2024 | Bhagwandas Mehra| BIA 04 | Email: bhagwanmehra04@gmail.com |</p>
+    </footer>
+    </section>
+  </body>
+</html>
